@@ -1,13 +1,13 @@
 Summary:	Some facilities for xemacs
 Summary(pl):	Ró¿ne dodatki do xemacsa
 Name:		xemacs-pld-extras
-Version:	0.12
-Release:	2
+Version:	0.14
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	%{name}-%{version}.tgz
-Source1:	http://www.xemacs.org/~stigb/rpm-spec-mode.el
+#Source1:	http://www.xemacs.org/~stigb/rpm-spec-mode.el
 Requires:	xemacs
 Requires:	xemacs-pc-pkg
 Requires:	xemacs-cc-mode-pkg
@@ -28,10 +28,10 @@ informacji na www.pld.org.pl/
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{_datadir}/xemacs-packages/lisp 
+install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp 
 
-cp -a %{name} $RPM_BUILD_ROOT/%{_datadir}/xemacs-packages/lisp
-install %{SOURCE1} $RPM_BUILD_ROOT/%{_datadir}/xemacs-packages/lisp/%{name}/
+cp -a %{name} $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp
+#install %{SOURCE1} $RPM_BUILD_ROOT/%{_datadir}/xemacs-packages/lisp/%{name}/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
