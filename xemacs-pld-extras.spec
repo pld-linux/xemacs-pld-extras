@@ -6,6 +6,7 @@ Release:	4
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	%{name}-%{version}.tgz
+# Source0-md5:	d8dac9f947ce1df4b761018bb8c8b8e2
 #Source1:	http://www.xemacs.org/~stigb/rpm-spec-mode.el
 Requires:	xemacs
 Requires:	xemacs-pc-pkg
