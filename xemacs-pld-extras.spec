@@ -1,7 +1,7 @@
 Summary:	Polish keyboard definitions and other files for xemacs
 Summary(pl): 	Definicje klawiatury pl i inne dodatki do xemacsa
 Name:		xemacs-pld-extras
-Version:	0.6
+Version:	0.7
 Release:	1
 Copyright:	GPL
 Group:		Applications/Archiving
