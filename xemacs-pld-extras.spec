@@ -9,8 +9,8 @@ Source0:	%{name}-%{version}.tgz
 # Source0-md5:	d8dac9f947ce1df4b761018bb8c8b8e2
 #Source1:	http://www.xemacs.org/~stigb/rpm-spec-mode.el
 Requires:	xemacs
-Requires:	xemacs-pc-pkg
 Requires:	xemacs-cc-mode-pkg
+Requires:	xemacs-pc-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
@@ -30,15 +30,14 @@ Pakiet zawiera ró¿ne u³atwienia i dodatki do XEmacsa:
 Wiêcej informacji na http://www.pld.org.pl/ .
 
 %prep
-%setup  -q -c
-
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp
 
 cp -a %{name} $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp
-#install %{SOURCE1} $RPM_BUILD_ROOT/%{_datadir}/xemacs-packages/lisp/%{name}/
+#install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp/%{name}/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
