@@ -1,7 +1,7 @@
 Summary:	Some facilities for xemacs
 Summary(pl):	Ró¿ne dodatki do xemacsa
 Name:		xemacs-pld-extras
-Version:	0.19
+Version:	0.20
 Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -15,13 +15,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 	
 %description
-Some files that changes default xemacs behavior.
+Some files that change default XEmacs behavior.
 
 %description -l pl
-Pliki definiuj±ce klawiaturê, ró¿ne u³atwienia do edycji, dodatkowe
-u³atwienia dla psgml. Wystarczy tylko zainstalowaæ ten pakiet by
-uzyskaæ pewne u³atwienia w pos³ugiwaniu siê xemacsem. wiêcej
-informacji na www.pld.org.pl/
+Pakiet zawiera ró¿ne u³atwienia i dodatki do XEmacsa:
+- tryb edycji rpm-spec-mode
+- definicje skrótów klawiaturowych dla PSGML-mode
+- w³±czenie standardowego dzia³ania niektórych klawiszy
+wiêcej informacji na www.pld.org.pl/
 
 %prep
 %setup  -q -c
