@@ -12,7 +12,7 @@ Requires:	xemacs-pc-pkg
 Requires:	xemacs-cc-mode-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
-	
+
 %description
 Some files that change default XEmacs behavior:
 - rpm-spec-mode
@@ -34,7 +34,7 @@ Wiêcej informacji na http://www.pld.org.pl/ .
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp 
+install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp
 
 cp -a %{name} $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/lisp
 #install %{SOURCE1} $RPM_BUILD_ROOT/%{_datadir}/xemacs-packages/lisp/%{name}/
