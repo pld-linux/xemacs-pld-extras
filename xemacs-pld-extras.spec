@@ -11,7 +11,7 @@ Source1:	http://www.xemacs.org/~stigb/rpm-spec-mode.el
 Requires:	xemacs
 Requires:	xemacs-pc-pkg
 Requires:	xemacs-cc-mode-pkg
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 	
 %description
