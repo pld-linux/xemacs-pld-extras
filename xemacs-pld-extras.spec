@@ -3,23 +3,22 @@ Summary(pl):	Ró¿ne dodatki do xemacsa
 Name:		xemacs-pld-extras
 Version:	0.10
 Release:	1
-Copyright:	GPL
-Group:		Applications/Archiving
-Source:		%{name}-%{version}.tgz
+License:	GPL
+Group:		Applications/Editors/Emacs
+Group(pl):	Aplikacje/Edytory/Emacs
+Source0:	%{name}-%{version}.tgz
 Requires:	xemacs
 Requires:	xemacs-pc-pkg
 BuildRoot:	/tmp/%{name}-%{version}-root
 BuildArch:	noarch
 	
-
 %description
 Some files that changes default xemacs behavior.
 
 %description -l pl
-Pliki definiuj±ce klawiaturê, ró¿ne u³atwienia do edycji,
-dodatkowe u³atwienia dla psgml.
-Wystarczy tylko zainstalowaæ ten pakiet by uzyskaæ polskie znaki,
-a tak¿e pewne u³atwienia w pos³ugiwaniu siê xemacsem.
+Pliki definiuj±ce klawiaturê, ró¿ne u³atwienia do edycji, dodatkowe
+u³atwienia dla psgml. Wystarczy tylko zainstalowaæ ten pakiet by uzyskaæ
+polskie znaki, a tak¿e pewne u³atwienia w pos³ugiwaniu siê xemacsem.
 
 %prep
 %setup  -q -c %{name}-%{version}
