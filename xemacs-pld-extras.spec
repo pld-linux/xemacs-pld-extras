@@ -19,9 +19,9 @@ Some files that changes default xemacs behavior.
 
 %description -l pl
 Pliki definiuj±ce klawiaturê, ró¿ne u³atwienia do edycji, dodatkowe
-u³atwienia dla psgml. Wystarczy tylko zainstalowaæ ten pakiet by uzyskaæ
-pewne u³atwienia w pos³ugiwaniu siê xemacsem. wiêcej informacji na
-www.pld.org.pl/
+u³atwienia dla psgml. Wystarczy tylko zainstalowaæ ten pakiet by
+uzyskaæ pewne u³atwienia w pos³ugiwaniu siê xemacsem. wiêcej
+informacji na www.pld.org.pl/
 
 %prep
 %setup  -q -c %{name}-%{version}
