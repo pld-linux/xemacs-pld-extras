@@ -334,7 +334,8 @@ the package."
   (define-key rpm-spec-mode-map "\C-q" 'indent-spec-exp)
   ;; commented out by klakier
   ;; there is no such function
-  ;;(define-key rpm-spec-mode-map "\t" 'rpm-spec-indent-command))
+  ;;(define-key rpm-spec-mode-map "\t" 'rpm-spec-indent-command)
+  )
 
 (defconst rpm-spec-mode-menu
   (purecopy '("RPM-Spec"
