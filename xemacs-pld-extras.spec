@@ -10,6 +10,7 @@ Source0:	%{name}-%{version}.tgz
 Source1: 	http://www.xemacs.org/~stigb/rpm-spec-mode.el
 Requires:	xemacs
 Requires:	xemacs-pc-pkg
+Requires:	xemacs-cc-mode-pkg
 BuildRoot:	/tmp/%{name}-%{version}-root
 BuildArch:	noarch
 	
