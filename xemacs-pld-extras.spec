@@ -1,11 +1,11 @@
 Summary:	Polish keyboard definitions and other files for xemacs
 Summary(pl): 	Definicje klawiatury pl i inne dodatki do xemacsa
 Name:		xemacs-pld-extras
-Version:	0.2
+Version:	0.4
 Release:	1
 Copyright:	GPL
 Group:		Applications/Archiving
-Source:		xemacs-pld-extras.tgz
+Source:		%{name}-%{version}.tgz
 Requires:	xemacs
 BuildRoot:	/tmp/%{name}-%{version}-root
 BuildArch:	noarch
@@ -18,7 +18,7 @@ Pliki definiuj±ce klawiaturê, ró¿ne u³atwienia do edycji,
 dodatkowe u³atwienia dla psgml.
 
 %prep
-%setup  -q -c %{name}
+%setup  -q -c %{name}-%{version}
 
 
 %install
