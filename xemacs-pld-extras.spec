@@ -31,4 +31,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/xemacs/lisp/*
+%{_datadir}/xemacs/lisp/kbd*
+%{_datadir}/xemacs/lisp/pld*
