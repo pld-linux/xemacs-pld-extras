@@ -1,7 +1,7 @@
 Summary:	Some facilities for xemacs
 Summary(pl):	Ró¿ne dodatki do xemacsa
 Name:		xemacs-pld-extras
-Version:	0.14
+Version:	0.15
 Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -24,7 +24,8 @@ uzyskaæ pewne u³atwienia w pos³ugiwaniu siê xemacsem. wiêcej
 informacji na www.pld.org.pl/
 
 %prep
-%setup  -q -c %{name}-%{version}
+%setup  -q -c
+
 
 %install
 rm -rf $RPM_BUILD_ROOT
