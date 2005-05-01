@@ -19,7 +19,7 @@ Some files that change default XEmacs behavior:
 - rpm-spec-mode
 - key shortcuts definitions for PSGML-mode
 
-More information on http://www.pld-linux.org/ .
+More information on <http://www.pld-linux.org/>.
 
 %description -l pl
 Pakiet zawiera ró¿ne u³atwienia i dodatki do XEmacsa:
@@ -27,7 +27,7 @@ Pakiet zawiera ró¿ne u³atwienia i dodatki do XEmacsa:
 - definicje skrótów klawiaturowych dla PSGML-mode
 - w³±czenie standardowego dzia³ania niektórych klawiszy
 
-Wiêcej informacji na http://www.pld-linux.org/ .
+Wiêcej informacji na <http://www.pld-linux.org/>.
 
 %prep
 %setup -q -c
