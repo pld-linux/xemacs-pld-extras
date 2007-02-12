@@ -1,5 +1,5 @@
 Summary:	Some facilities for xemacs
-Summary(pl.UTF-8):   Różne dodatki do xemacsa
+Summary(pl.UTF-8):	Różne dodatki do xemacsa
 Name:		xemacs-pld-extras
 Version:	0.21
 Release:	5
