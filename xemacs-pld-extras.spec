@@ -1,5 +1,5 @@
 Summary:	Some facilities for xemacs
-Summary(pl):	R罂ne dodatki do xemacsa
+Summary(pl.UTF-8):   R贸偶ne dodatki do xemacsa
 Name:		xemacs-pld-extras
 Version:	0.21
 Release:	5
@@ -21,13 +21,13 @@ Some files that change default XEmacs behavior:
 
 More information on <http://www.pld-linux.org/>.
 
-%description -l pl
-Pakiet zawiera r罂ne u砤twienia i dodatki do XEmacsa:
+%description -l pl.UTF-8
+Pakiet zawiera r贸偶ne u艂atwienia i dodatki do XEmacsa:
 - tryb edycji rpm-spec-mode
-- definicje skr髏體 klawiaturowych dla PSGML-mode
-- w潮czenie standardowego dzia砤nia niekt髍ych klawiszy
+- definicje skr贸t贸w klawiaturowych dla PSGML-mode
+- w艂膮czenie standardowego dzia艂ania niekt贸rych klawiszy
 
-Wi阠ej informacji na <http://www.pld-linux.org/>.
+Wi臋cej informacji na <http://www.pld-linux.org/>.
 
 %prep
 %setup -q -c
