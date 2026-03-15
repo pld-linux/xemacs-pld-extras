@@ -2,12 +2,12 @@ Summary:	Some facilities for xemacs
 Summary(pl.UTF-8):	Różne dodatki do xemacsa
 Name:		xemacs-pld-extras
 Version:	0.21
-Release:	5
+Release:	6
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	%{name}-%{version}.tgz
 # Source0-md5:	d8dac9f947ce1df4b761018bb8c8b8e2
-#Source1:	http://www.xemacs.org/~stigb/rpm-spec-mode.el
+#Source1:	https://www.xemacs.org/~stigb/rpm-spec-mode.el
 Requires:	xemacs
 Requires:	xemacs-cc-mode-pkg
 Requires:	xemacs-pc-pkg
